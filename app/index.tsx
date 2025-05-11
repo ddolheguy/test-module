@@ -3,6 +3,9 @@ import { useCallback, useRef } from 'react';
 import { StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
+const PROJECT_ID = 'xxxx';
+const EVENT_ID = 'xxx';
+
 export default function HomeScreen() {
   const monterosaRef = useRef<any>(null);
 
@@ -28,8 +31,8 @@ export default function HomeScreen() {
             host: 'cdn.monterosa.cloud',
             hidesHeadersAndFooters: true,
             autoresizesHeight: true,
-            projectId: 'a28aa01d-3f18-4cf6-a370-1200784df902',
-            eventId: 'dccf4073-4b53-4e22-b436-8e5c342e8b01',
+            projectId: PROJECT_ID,
+            eventId: EVENT_ID,
             parameters: {
               lang: 'en',
             },
