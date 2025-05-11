@@ -17,14 +17,14 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   "userInterfaceStyle": "automatic",
   "ios": {
     "supportsTablet": true,
-    "bundleIdentifier": "com.davidstadapp.monterosa"
+    "bundleIdentifier": "com.davidtest.monterosa"
   },
   "android": {
     "adaptiveIcon": {
       "foregroundImage": "./assets/images/adaptive-icon.png",
       "backgroundColor": "#ffffff"
     },
-    "package": "com.davidstadapp.monterosa"
+    "package": "com.davidtest.monterosa"
   },
   "web": {
     "bundler": "metro",
